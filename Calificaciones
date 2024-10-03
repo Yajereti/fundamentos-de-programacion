@@ -1,0 +1,11 @@
+# CALCULAR 3 CALIFICACIONES
+
+calificaciones = [69, 82, 100]
+calificacion_minima = 70
+
+for calificacion in calificaciones:
+resultado = "Aprobó" if calificacion >= calificacion_minima else "Reprobó"
+print(f"Calificación: {calificacion} - {resultado}")
+
+
+
