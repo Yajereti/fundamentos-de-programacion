@@ -1,0 +1,10 @@
+# CALCULAR HORAS EXTRA
+
+horas_trabajadas = 12
+pago_por_hora = 200
+pago_extra_por_hora = 100
+
+horas_extras = horas_trabajadas - 8
+pago_total = (8 * pago_por_hora) + (horas_extras * (pago_por_hora + pago_extra_por_hora))
+
+print("Pago total:", pago_total)
